@@ -6,7 +6,7 @@ Questo è un semplice gioco di Carta, Sasso, Forbice implementato utilizzando HT
 
 Puoi vedere una breve dimostrazione del gioco nel video qui sotto:
 
-![Video Dimostrativo](assets/demo.mp4)
+![Video Dimostrativo](assets/demo.gif)
 
 ## Come Funziona
 
