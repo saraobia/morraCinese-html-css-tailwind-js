@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <title>Sassocartaforbice</title>
+</head>
+<style>
+  body {
+    font-family: "Inter", sans-serif;
+  }
+</style>
+
+<body class="bg-[#1A222D] text-[#fff]">
+  <!-- Descrizione -->
+  <section class="flex flex-col justify-center items-center">
+    <div class="mt-[80px] w-[600px] max-[650px]:w-[400px]">
+      <h1 class="text-[56px] font-bold max-[650px]:text-[38px]">Carta-Sasso-Forbice </h1>
+      <p class="text-[18px] text-[#ccc] leading-[10px] max-[650px]:text-[10px]">Scegli tra carta sasso e forbice e vedi
+        se riesci a
+        battere il
+        computerrr
+      </p>
+    </div>
+  </section>
+
+  <!-- Gioco -->
+  <section class=" mt-[50px] flex flex-col justify-center items-center ">
+    <!-- BTN -->
+    <div class="w-[600px] flex justify-between max-[650px]:w-[400px] max-[650px]:justify-center max-[650px]:flex-col">
+      <button id="btnCarta"
+        class="mr-[10px] px-[65px] py-[10px] border-2 border-[#F43E8C] rounded-md text-[18px] font-medium max-[650px]:my-[5px] max-[650px]:mr-0">Carta</button>
+      <button id="btnSasso"
+        class="mr-[10px] px-[65px] py-[10px] border-2 border-[#04CC96] rounded-md text-[18px] font-medium max-[650px]:my-[5px] max-[650px]:mr-0">Sasso</button>
+      <button id="btnForbice"
+        class=" px-[65px] py-[10px] border-2 border-[#009CE1] rounded-md text-[18px] font-medium max-[650px]:my-[5px]">Forbice</button>
+    </div>
+
+    <!-- Contenitori gioco -->
+    <div class="mt-[40px] flex justify-between max-[650px]:flex-col">
+
+      <!-- UTENTE -->
+      <div class="flex flex-col items-center justify-center mx-[50px]">
+        <div
+          class="bg-[#283242] rounded-lg w-[250px] h-[250px] flex justify-center items-center max-[650px]:w-[200px] max-[650px]:h-[200px]">
+          <div id="imgUser"
+            class=" rounded-lg bg-no-repeat bg-cover object-contain w-[150px] h-[150px] max-[650px]:h-[100px] max-[650px]:w-[100px]">
+          </div>
+        </div>
+        <div class="w-[100%] py-[5px] flex justify-between items-center">
+          <h2 id="user" class="text-[20px] font-bold">Username</h2>
+          <p class="text-[#ccc]">Punteggio: <span id="valore2" class="font-bold text-[#fff]"> 5</span></p>
+        </div>
+      </div>
+
+      <!-- PC -->
+      <div class="flex flex-col items-center justify-center mx-[50px] max-[650px]:mt-[30px]">
+        <div
+          class="bg-[#283242] rounded-lg w-[250px] h-[250px] flex justify-center items-center max-[650px]:w-[200px] max-[650px]:h-[200px]">
+          <div id="imgPC"
+            class="  bg-no-repeat bg-cover object-contain w-[150px] h-[150px] max-[650px]:w-[100px] max-[650px]:h-[100px] ">
+          </div>
+        </div>
+
+        <div class="w-[100%] py-[5px] flex justify-between items-center ">
+          <h2 class="text-[20px] font-bold">Computer</h2>
+          <p class="text-[#ccc]">Punteggio: <span id="valore1" class="font-bold text-[#fff]"> 5</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Risultato -->
+    <div class="mt-[40px]">
+      <p id="risultato" class="text-[30px] font-bold"></p>
+    </div>
+
+    <button id="reset"
+      class="mt-[30px] mr-[10px] px-[65px] py-[10px] bg-[#fff] rounded-md text-[18px] text-[#283242] font-medium mb-[20px]">Gioca
+      di
+      nuovo</button>
+  </section>
+
+  <footer class="flex items-center justify-center mt-[50px] bg-[#283242] py-[30px]">
+    <div class="">
+      <p>Fatto con il cuore. &copy; Sara Obialero </p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
