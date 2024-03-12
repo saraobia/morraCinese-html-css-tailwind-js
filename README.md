@@ -1,6 +1,6 @@
 # Carta, Sasso, Forbice Game
 
-Questo è un semplice gioco di Carta, Sasso, Forbice implementato utilizzando HTML, JavaScript e Tailwind CSS per l'interfaccia utente. Il gioco consente all'utente di fare una scelta tra Carta, Sasso e Forbice e confronta questa scelta con quella generata casualmente dal computer. Il punteggio viene aggiornato di conseguenza, e la partita continua finché uno dei giocatori raggiunge lo zero punti.
+Il gioco è stato implementato utilizzando HTML, JavaScript e Tailwind CSS per l'interfaccia utente. Consente all'utente di fare una scelta tra Carta, Sasso e Forbice e confronta questa scelta con quella generata casualmente dal computer. Il punteggio viene aggiornato di conseguenza, e la partita continua finché uno dei giocatori raggiunge lo zero punti.
 
 ## Video Dimostrativo
 
